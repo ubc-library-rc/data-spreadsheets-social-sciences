@@ -1,54 +1,69 @@
 ---
 layout: default
-title: Introduction
-nav_order: 2
+title: Setup
+nav_order: 1
 ---
 
-Good data organization is the foundation of your research
-project. Most researchers have data or do data entry in
-spreadsheets. Spreadsheet programs are very useful graphical
-interfaces for designing data tables and handling very basic data
-quality control functions.
+## Things You’ll Need To Complete This Tutorial
 
-### Learning objectives
-
-At the end of this workshop, you will be able to:
-1. Implement best practices in data table formatting to support your research
-2. Identify and address common formatting mistakes
-3. Understand approaches for handling dates in spreadsheets
-4. Utilize basic quality control features and data manipulation practices
-5. Effectively export data from spreadsheet programs
-
-### Spreadsheet programs
-
-Many spreadsheet programs are available. We will use Microsoft Excel in our examples.
-Although it is not open source software it is very widely available and used. Free spreadsheet programs such as LibreOffice are available.
-The functionality of these may differ from Excel, but in general they can be used to perform similar tasks.
-
-
-## What this lesson will not teach you
-
-- How to do *statistics* in a spreadsheet
-- How to do *plotting* in a spreadsheet
-- How to *write code* in spreadsheet programs
-
-## Schedule
-
-| Time | Content 
-| --- | --- 
-| 0:00 | [Concepts and tools](01_what_is_git.md)
-| 0:10 | [Git basics](02_getting_started.md)
-| 0:30 | [Syncing with GitHub](03_sync.md)
-| 1:00 | [Collaborating on GitHub](04_collab.md)
-| 1:20 | Wrap-up
-
-
-In this lesson we're going to talk about:
-
-1. [Formatting data tables in spreadsheets](../01-format-data/)
-2. [Formatting problems](../02-common-mistakes/)
-3. [Dates as data](../03-dates-as-data/)
-4. [Quality control](../04-quality-assurance/)
-5. [Exporting data](../05-exporting-data/)
-
-
+### Data
+>
+> You need to download some files to follow this lesson:
+>
+> 1. Download the following three files:
+>   * [SAFI_clean.csv](https://ndownloader.figshare.com/files/11492171)
+>   * [SAFI_messy.xlsx](https://ndownloader.figshare.com/files/11502824)
+>   * [SAFI_dates.xlsx](https://ndownloader.figshare.com/files/11502827)
+>
+> 2. Place these 3 files in a folder you can easily find and access on your
+> computer (for instance in a `datacarpentry-spreadsheets` folder on your
+> Desktop or within your Home folder).
+>
+> #### About the data
+>
+> For more information about the dataset and to
+> download it from Figshare, check out the [Social Sciences workshop data
+> page](http://www.datacarpentry.org/socialsci-workshop/data).
+### Software
+>
+> To interact with spreadsheets, we can use LibreOffice, 
+> Microsoft Excel, Gnumeric, 
+> Onlyoffice, WPS office
+> or other programs. Commands may differ a bit between programs, but
+> the general ideas for thinking about spreadsheets are the same.
+>
+> **For this lesson, we will mainly use Microsoft Excel.** If you do not
+> have access to Microsoft Excel, you can also use LibreOffice, which is 
+> a free, open source spreadsheet program. Many functions will be similar 
+> to Excel. 
+>
+> macOS users who use Apple's Numbers application should note that it does not
+> contain some of the features (particularly data validation) that we will
+> be using. Please use LibreOffice or Microsoft Excel instead.
+>
+#### LibreOffice installation (optional)
+> ##### Windows/macOS
+> 
+> - Download the Installer
+> - Install LibreOffice by going to [the installation
+>   page](https://www.libreoffice.org/download/libreoffice-fresh/). The version
+>   for Windows/Mac should automatically be selected. Click Download Version X.X.X
+>   (whichever is the most recent version).
+> - Install LibreOffice
+> - Once the installer is downloaded, double click on it and LibreOffice should
+>   install.
+>
+> ##### Linux
+>
+> - Download the Installer
+> - Install LibreOffice by going to [the installation
+>   page](https://www.libreoffice.org/download/libreoffice-fresh/). The version
+>   for Linux should automatically be selected. Click Download Version X.X.X
+>   (whichever is the most recent version).
+> - Install LibreOffice
+> - Once the installer is downloaded, double click on it and LibreOffice should
+>   install.
+> - package manager option:
+>   - pacman (Arch): `pacman -S libreoffice`
+>   - yum (Fedora, CentOS): `yum install libreoffice`
+>   - apt (Debian, Ubuntu): `apt install libreoffice`
