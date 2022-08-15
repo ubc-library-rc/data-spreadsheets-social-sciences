@@ -4,7 +4,7 @@ title: Setup
 nav_order: 1
 ---
 
-## Things You’ll Need To Complete This Tutorial
+## Pre-Workshop Setup
 
 ### Data
 >
