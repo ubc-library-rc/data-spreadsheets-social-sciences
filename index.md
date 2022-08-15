@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Outline
-nav_order: 1
+title: Introduction
+nav_order: 2
 ---
 
 ## Note: this workshop is in development and not yet complete.
