@@ -6,12 +6,6 @@ has_children: true
 has_toc: false
 ---
 
-Good data organization is the foundation of your research
-project. Most researchers have data or do data entry in
-spreadsheets. Spreadsheet programs are very useful graphical
-interfaces for designing data tables and handling very basic data
-quality control functions.
-
 ### Learning objectives
 
 At the end of this workshop, you will be able to:
@@ -20,6 +14,8 @@ At the end of this workshop, you will be able to:
 3. Understand approaches for handling dates in spreadsheets
 4. Utilize basic quality control features and data manipulation practices
 5. Effectively export data from spreadsheet programs
+
+In this lesson, however, you will not learn about data analysis with spreadsheets. Much of your time as a researcher will be spent in the initial ‘data wrangling’ stage, where you need to organize the data to perform a proper analysis later. It’s not the most fun, but it is necessary. In this lesson you will learn how to think about data organization and some practices for more effective data wrangling. With this approach you can better format current data and plan new data collection so less data wrangling is needed.
 
 ### Spreadsheet programs
 
@@ -38,17 +34,10 @@ The functionality of these may differ from Excel, but in general they can be use
 
 | Time | Content 
 | --- | --- 
-| 0:00 | [Concepts and tools](01_what_is_git.md)
-| 0:10 | [Git basics](02_getting_started.md)
-| 0:30 | [Syncing with GitHub](03_sync.md)
-| 1:00 | [Collaborating on GitHub](04_collab.md)
-| 1:20 | Wrap-up
+| 0:00 | [Introduction and Setup](01_why_spreadsheets.md)
+| 0:10 | [Formatting Data](02_format_data.md)
+| 0:30 | [Dates as Data](04_dates_as_data.md)
+| 1:00 | [Quality Assurance](05_quality_assurance.md)
+| 1:20 | [Explorting Data] (06_exporting_data.md)
+| 1:20 | [Wrap-Up]
 
-
-In this lesson we're going to talk about:
-
-1. [Formatting data tables in spreadsheets](../01-format-data/)
-2. [Formatting problems](../02-common-mistakes/)
-3. [Dates as data](../03-dates-as-data/)
-4. [Quality control](../04-quality-assurance/)
-5. [Exporting data](../05-exporting-data/)
