@@ -35,7 +35,6 @@ data.
 > interfaces) for data entry and data analysis might be
 > different. It is important to take this into account, and ideally
 > automate the conversion from one to another.
-{: .callout}
 
 ### Keeping track of your analyses
 
@@ -120,14 +119,12 @@ later in this workshop.
 > For more information about the dataset and to download it from Figshare, check
 out the [Social Sciences workshop data
 page](http://www.datacarpentry.org/socialsci-workshop/data).
-{: .callout}
 
 > ## LibreOffice Users
 > The default for LibreOffice is to treat tabs, commas, and semicolons as delimiters.
 > This behavior can cause problems with both the data for this lesson and other data
 > you might want to use. This can be fixed when opening LibreOffice by deselecting
 > the "semicolons" and "tabs" checkboxes.
-{: .callout}
 
 > ## Exercise
 >
@@ -157,8 +154,6 @@ page](http://www.datacarpentry.org/socialsci-workshop/data).
 > > exercise is done during a workshop, ask people what they saw as wrong with
 > > the data. As they bring up different points, you can refer to [the next episode](../02-common-mistakes)
 > > or expand a bit on the point they brought up.
-> {: .solution}
-{: .challenge}
 
 > ## Handy References
 >
@@ -170,7 +165,6 @@ page](http://www.datacarpentry.org/socialsci-workshop/data).
 >
 > * Hadley Wickham, *Tidy Data*, Vol. 59, Issue 10, Sep 2014, Journal of
 > Statistical Software. <http://www.jstatsoft.org/v59/i10>
-{: .callout}
 
 ### Metadata
 
@@ -256,5 +250,3 @@ as part of your research.
 > > - definitions of what was counted as a "room", a "plot", etc. (e.g. was
 > there a minimum size)
 > > - learners may come up with additional questions to add to this list
-> {: .solution}
-{: .challenge}
