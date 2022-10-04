@@ -6,9 +6,15 @@ nav_order: 1
 
 # Data Organization in Spreadsheets for Social Scientists
 
+
 Good data organization is the foundation of any research project. Most researchers have data in spreadsheets, so it’s the place that many research projects start.
 
 Typically we organize data in spreadsheets in ways that we as humans want to work with the data. However computers require data to be organized in particular ways. In order to use tools that make computation more efficient, such as programming languages like R or Python, we need to structure our data the way that computers need the data. Since this is where most research projects start, this is where we want to start too!
+
+This workshop will be hands-on, so participants are encouraged to use their own computers to ensure the proper setup of tools for an efficient workflow.
+These lessons assume no prior knowledge of the skills or tools.
+
+To get started, follow the directions below to download data to your computer and follow any installation instructions.
 
 ## Pre-Workshop Setup
 
