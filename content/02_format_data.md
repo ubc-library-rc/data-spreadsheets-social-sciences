@@ -258,6 +258,3 @@ as part of your research.
 > > - learners may come up with additional questions to add to this list
 > {: .solution}
 {: .challenge}
-
-
-{% include links.md %}
