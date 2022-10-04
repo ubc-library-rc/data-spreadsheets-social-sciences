@@ -5,10 +5,9 @@ parent: Workshop Content
 nav_order: 1
 ---
 
-> ### Exercise
-> - How many people have used spreadsheets in their research?
-> - How many people have accidentally done something that made them
-> frustrated or sad?
+## Exercise
+- How many people have used spreadsheets in their research?
+- How many people have accidentally done something that made them frustrated or sad?
 
 ## Problems with Spreadsheets
 
