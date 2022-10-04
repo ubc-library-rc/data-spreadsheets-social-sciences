@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Formatting Data Tables in Spreadsheets
+title: Formatting Data - Problems
 parent: Workshop Content
 nav_order: 2
 ---
