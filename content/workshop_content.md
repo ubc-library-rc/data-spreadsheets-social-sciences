@@ -32,5 +32,5 @@ In this lesson, however, you will not learn about data analysis with spreadsheet
 | 0:30 | [Dates as Data](04_dates_as_data.md)
 | 1:00 | [Quality Assurance](05_quality_assurance.md)
 | 1:20 | [Explorting Data](06_exporting_data.md)
-| 1:20 | [Wrap-Up]
+| 1:20 | Wrap-Up
 
