@@ -6,7 +6,7 @@ has_children: true
 has_toc: false
 ---
 
-### Learning objectives
+## Learning objectives
 
 At the end of this workshop, you will be able to:
 1. Implement best practices in data table formatting to support your research
@@ -17,14 +17,7 @@ At the end of this workshop, you will be able to:
 
 In this lesson, however, you will not learn about data analysis with spreadsheets. Much of your time as a researcher will be spent in the initial ‘data wrangling’ stage, where you need to organize the data to perform a proper analysis later. It’s not the most fun, but it is necessary. In this lesson you will learn how to think about data organization and some practices for more effective data wrangling. With this approach you can better format current data and plan new data collection so less data wrangling is needed.
 
-### Spreadsheet programs
-
-Many spreadsheet programs are available. We will use Microsoft Excel in our examples.
-Although it is not open source software it is very widely available and used. Free spreadsheet programs such as LibreOffice are available.
-The functionality of these may differ from Excel, but in general they can be used to perform similar tasks.
-
-
-## What this lesson will not teach you
+### What this lesson will not teach you
 
 - How to do *statistics* in a spreadsheet
 - How to do *plotting* in a spreadsheet
@@ -38,6 +31,6 @@ The functionality of these may differ from Excel, but in general they can be use
 | 0:10 | [Formatting Data](02_format_data.md)
 | 0:30 | [Dates as Data](04_dates_as_data.md)
 | 1:00 | [Quality Assurance](05_quality_assurance.md)
-| 1:20 | [Explorting Data] (06_exporting_data.md)
+| 1:20 | [Explorting Data](06_exporting_data.md)
 | 1:20 | [Wrap-Up]
 
