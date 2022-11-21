@@ -58,6 +58,7 @@ The cardinal rules of using spreadsheet programs for data:
    most data repositories.
 
 Take a look at this screenshot of some collected data (we'll talk more about the dataset and the context later).
+
 ![multiple-info example](../fig/multiple-info.png)
 
 The problem is that number of livestock and type of livestock are in
