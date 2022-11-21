@@ -15,7 +15,7 @@ At the end of this workshop, you will be able to:
 4. Utilize basic quality control features and data manipulation practices
 5. Effectively export data from spreadsheet programs
 
-In this lesson, however, you will not learn about data analysis with spreadsheets. Much of your time as a researcher will be spent in the initial ‘data wrangling’ stage, where you need to organize the data to perform a proper analysis later. It’s not the most fun, but it is necessary. In this lesson you will learn how to think about data organization and some practices for more effective data wrangling. With this approach you can better format current data and plan new data collection so less data wrangling is needed.
+In this lesson, you will **not** learn about **data analysis** with spreadsheets. Much of your time as a researcher will be spent in the initial ‘data wrangling’ stage, where you need to organize the data to perform a proper analysis later. It’s not the most fun, but it is necessary. In this lesson you will learn how to think about data organization and some practices for more effective data wrangling. With this approach you can plan new data collection so less data wrangling is needed.
 
 ### What this lesson will not teach you
 
