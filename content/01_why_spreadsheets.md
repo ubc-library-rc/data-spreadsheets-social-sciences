@@ -5,10 +5,6 @@ parent: Workshop Content
 nav_order: 1
 ---
 
-## Exercise
-- How many people have used spreadsheets in their research?
-- How many people have accidentally done something that made them frustrated or sad?
-
 ## Problems with Spreadsheets
 
 Spreadsheets are good for data entry,
@@ -21,6 +17,8 @@ to take our data from the spreadsheet and use it in another program.
 Additional white space, merged cells, colour and grids
 may aid readability but are not easily handled by other programs
 that take our spreadsheet as an input to further analysis.
+
+!(A colourful unorganized spreadsheet)[/fig/colourful-spreadsheet.png]
 
 Generating statistics and figures in spreadsheets should be done with caution.
 The graphical, drag and drop nature of spreadsheet programs means that it can be very difficult, if not impossible, to replicate your steps (much less retrace anyone else’s).
