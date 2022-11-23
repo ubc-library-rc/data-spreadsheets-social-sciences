@@ -60,34 +60,24 @@ as part of your research.
 
 (Text on metadata adapted from the online course Research Data [MANTRA](http://datalib.edina.ac.uk/mantra) by EDINA and Data Library, University of Edinburgh. MANTRA is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).)
 
-> ## Exercise
->
-> Download a [clean version of this
-> dataset](https://ndownloader.figshare.com/files/11492171) and open the file
-> with your spreadsheet program. This data has many more variables that were not
-> included in the messy spreadsheet and is formatted according to tidy data
-> principles.
->
-> Discuss this data with a partner and make a list of some of the types of
-> metadata that should be recorded about this dataset. It may be helpful to
-> start by asking yourself, "What is not immediately obvious to me about this
-> data? What questions would I need to know the answers to in order to analyze
-> and interpret this data?"
->
-> > ## Solution
-> >
-> > Some types of metadata that should be recorded and made available with the
-> > data are:
-> > - the exact wording of questions used in the interviews (if interviews were
-> structured) or general prompts used (if interviews were semi-structured)
-> > - a description of the type of data allowed in each column (e.g. the allowed
-> range for numerical data with a restricted range, a list of allowed options
-> for categorical variables, whether data in a numerical column should be
-> continuous or discrete)
-> > - definitions of any categorical variables (e.g. definitions of
-> "burntbricks" and "sunbricks")
-> > - definitions of what was counted as a "room", a "plot", etc. (e.g. was
-> there a minimum size)
-> > - learners may come up with additional questions to add to this list
-> {: .solution}
-{: .challenge}
+### Exercise
+
+Step 1
+{: .label .label-step}
+Download a [clean version of this dataset](https://ndownloader.figshare.com/files/11492171) and open the file with your spreadsheet program. This data has many more variables and is formatted according to tidy data principles.
+{: .step}
+
+Step 2
+{: .label .label-step}
+Looking at the data, what kinds of metadata would be worthwhile to record about the dataset? What information do you need to know if you are someone new to the project?
+{: .step}
+
+<details>
+  <summary><b>Solution</b></summary>
+<br>
+Some types of metadata that should be recorded:
+<br><br> - The exact wording of questions used in the interviews (if interviews were structured) or general prompts used (if interviews were semi-structured)
+<br><br> - A description of the type of data allowed in each column (e.g. the allowed range for numerical data with a restricted range, a list of allowed options for categorical variables, whether data in a numerical column should be continuous or discrete)
+<br><br> - Definitions of any categorical variables (e.g. definitions of "burntbricks" and "sunbricks")
+<br><br> - Definitions of what was counted as a "room", a "plot", etc. (e.g. was there a minimum size)
+</details>
