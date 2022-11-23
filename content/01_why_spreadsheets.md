@@ -18,7 +18,7 @@ Additional white space, merged cells, colour and grids
 may aid readability but are not easily handled by other programs
 that take our spreadsheet as an input to further analysis.
 
-![A colourful but unorganized spreadsheet](/fig/colourful-spreadsheet.png)
+![A colourful but unorganized spreadsheet](/content/images/colourful-spreadsheet.png)
 
 Generating statistics and figures in spreadsheets should be done with caution.
 The graphical, drag and drop nature of spreadsheet programs means that it can be very difficult, if not impossible, to replicate your steps (much less retrace anyone else’s).
