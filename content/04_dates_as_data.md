@@ -21,7 +21,7 @@ One of the other reasons dates can be tricky is that most spreadsheet programs h
 
 ![Many formats, many ambiguities](../fig/excel_dates_1.jpg)
 
-### Dates stored as integers
+## Dates stored as integers
 
 The first thing you need to know is that Excel stores dates as numbers - see the last column in the above figure. This serial number represents the number of days from December 31, 1899. In the example, July 2, 2014 is stored as the serial number 41822.
 
@@ -43,7 +43,7 @@ And it would return
 because it understands the date as a number `41822`, and `41822 + 90 = 41912`
 which Excel interprets as the 30th day of September, 2014. In most cases, it retains the format of the cell that is being operated upon. Month and year rollovers are internally tracked and applied.
 
-### Regional date formatting
+## Regional date formatting
 
 When you enter a date into a spreadsheet it looks like a date although the spreadsheet program may
 display different text from what you input. It does this to be 'helpful' but it often is not. 
@@ -102,6 +102,6 @@ Using the same spreadsheet you used for the previous exercise, add another data 
 If no year is specified, the spreadsheet program will assume you mean the current year and will insert that value. This may be incorrect if you are working with historical data so be very cautious when working with data that does not have a year specified within its date variable.
 </details>
 
-### Historical data
+## Historical data
 Excel is unable to parse dates from before 1899-12-31, and will thus leave these untouched.  If you’re mixing historic data
 from before and after this date, Excel will translate only the post-1900 dates into its internal format, thus resulting in mixed data. If you’re working with historic data, be extremely careful with your dates!
