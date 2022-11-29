@@ -53,32 +53,11 @@ An important note for backwards compatibility: you can open CSV files in Excel!
 
 ![Saving an Excel file to CSV](../fig/excel-to-csv.png)
 
-> ## A note on R and `xls`
-> 
-> There are R packages that can read `xls` files (as well as
-> Google spreadsheets). It is even possible to access different
-> worksheets in the `xls` documents. However, because these 
-> packages parse data tables from proprietary and non-static
-> software, there is no guarantee that they will continue to 
-> work on new versions of Excel. Exporting your data to CSV or TSV
-> format is much safer and more reproducible.
-{: .callout}
+A note on R and `xls`
+There are R packages that can read `xls` files (as well as Google spreadsheets). It is even possible to access different worksheets in the `xls` documents. However, because these packages parse data tables from proprietary and non-static software, there is no guarantee that they will continue to work on new versions of Excel. Exporting your data to CSV or TSV format is much safer and more reproducible.
+{: .note}
 
+### What to do when your data contain commas
+In some datasets, the data values themselves may include commas (,). In that case, you need to make sure that the commas are properly escaped when saving the file. Otherwise, the software which you use (including Excel) will most likely incorrectly display the data in columns. This is because the commas which are a part of the data values will be interpreted as delimiters. 
 
-> ## What to do when your data contain commas
-> 
-> In some datasets, the data values themselves may include commas (,). In that
-> case, you need to make sure that the commas are properly escaped when saving
-> the file. Otherwise, the software which you use (including Excel) will most
-> likely incorrectly display the data in columns. This is because the commas
-> which are a part of the data values will be interpreted as delimiters.
->
-> If you are working with data that contains commas, the fields should be
-> enclosed with double quotes. The spreadsheet software should do the right
-> thing ([LibreOffice](https://www.libreoffice.org/download/download/) provides
-> comprehensive options to import and export CSV files). However, it is always a
-> good idea to double check that the file you are exporting can be read in
-> correctly. For more of a discussion on data formats and potential issues with
-> commas within datasets see [the Ecology Spreadsheets lesson discussion
-> page](http://www.datacarpentry.org/spreadsheet-ecology-lesson/discuss/).
-{: .callout}
+If you are working with data that contains commas, the fields should be enclosed with double quotes. The spreadsheet software should do the right thing ([LibreOffice](https://www.libreoffice.org/download/download/) provides comprehensive options to import and export CSV files). However, it is always a good idea to double check that the file you are exporting can be read in correctly. For more of a discussion on data formats and potential issues with commas within datasets see [the Ecology Spreadsheets lesson discussion page](http://www.datacarpentry.org/spreadsheet-ecology-lesson/discuss/).
