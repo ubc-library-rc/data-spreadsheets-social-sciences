@@ -9,22 +9,22 @@ Storing the data you're going to work with for your analyses in Excel
 default file format (`*.xls` or `*.xlsx` - depending on the Excel
 version) isn't a good idea. Why?
 
-- Because it is a proprietary format, and it is possible that in
+* Because it is a proprietary format, and it is possible that in
   the future, technology won’t exist (or will become sufficiently
   rare) to make it inconvenient, if not impossible, to open the file.
-
-- Other spreadsheet software may not be able to open files
+  
+* Other spreadsheet software may not be able to open files
   saved in a proprietary Excel format.
 
-- Different versions of Excel may handle data
+* Different versions of Excel may handle data
   differently, leading to inconsistencies.
 
-- Finally, more journals and grant agencies are requiring you
+* Finally, more journals and grant agencies are requiring you
   to deposit your data in a data repository, and most of them don't
   accept Excel format. It needs to be in one of the formats
   discussed below.
   
-- The above points also apply to other formats such as open data formats used by LibreOffice. These formats are not static and do not get parsed the same way by different software packages.
+* The above points also apply to other formats such as open data formats used by LibreOffice. These formats are not static and do not get parsed the same way by different software packages.
 
 As an example of inconsistencies in data storage, do you remember how we talked about how Excel stores dates earlier? It turns out that 
 there are multiple defaults for different versions of the software, and you can switch between them all. So, say you’re
