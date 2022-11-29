@@ -103,11 +103,13 @@ In LibreOffice, you will see:
 
 ![Image of Error Alert tab in LibreOffice](../fig/error_alert_LibreOffice.png)
 
-> ## Exercise
-> Apply a new data validation rule to one of the other numeric 
-> columns in this data table. Discuss with the person sitting next
-> to you what a reasonable rule would be for the column you've selected. Be sure to create an informative input message. 
-{: .challenge}
+### Activity
+
+Step 1
+{: .label .label-step}
+Looking at the other columns in the [clean version of the SAFI dataset](https://ndownloader.figshare.com/files/11492171), what is another numeric column that would benefit from having a data validation rule applied to it?
+{: .step}
+
 
 ### Restricting data to entries from a list
 
@@ -151,36 +153,16 @@ enter data into the selected cells. When a cell in this column is selected, a dr
 When you click the arrow, you will be able to select a value from your list.
 If you type a value which is not on the list, you will get an error message. This not only prevents data input errors, but also makes it easier and faster to enter data. 
 
-> ## Exercise
-> Apply a new data validation rule to one of the other categorical 
-> columns in this data table. Discuss with the person sitting next
-> to you what a reasonable rule would be for the column you've selected. Be sure to create an informative input message. 
-{: .challenge}
+## Tip
+Typing a list of values where only a few possible values exist (like "grass, muddaub, burntbricks, sunbricks, cement") might be convenient, but if the list is longer it makes sense to create it as a small table (in a separate tab of the workbook). We can give the table a name and then reference the table name as the source of acceptable inputs when the source box appears in the Data Validation pop-out.
 
-> ## Tip
-> Typing a list of values where only a few possible values exist (like "grass, muddaub, burntbricks, sunbricks, cement") might be convenient, but if the list is longer it makes sense to create it as a small table (in a separate tab of the workbook).
-> We can give the table a name and then reference the table name as the source of acceptable inputs when the source box appears in the Data Validation pop-out.
->
-> Using a table in this way makes the data entry process more flexible.
-> If you add or remove contents from the table, then these are immediately reflected in any new cell entries based on this source.
-> You can also have different cells refer to the same table of acceptable inputs.
-{: .callout}
+Using a table in this way makes the data entry process more flexible. If you add or remove contents from the table, then these are immediately reflected in any new cell entries based on this source. 
+{: .note}
 
-> ## Tip
-> 
-> In the examples above we have applied data validation rules to
-> an existing spreadsheet to demonstrate how they work, however, 
-> you may have noticed that data validation rules are not applied
-> retroactively to data that is already present in the cell. 
-> This means, for example, that if we had already entered `150`
-> in the `no_membrs` column before applying our data validation
-> rule, that cell would not be flagged with a warning. 
-> 
-> In some versions of Excel, you can click in the `Data` tab on 
-> `Data Validation` and then `Circle invalid data`. This will 
-> put red circles around invalid data entries. Note that it can be a bit slow with large data files.
->
-> When using spreadsheets for data entry, it is a good idea to set up
-> data validation rules for each column when you set up your 
-> spreadsheet (i.e. before you enter any data). 
-{: .callout}
+## Tip
+In the examples above we have applied data validation rules to an existing spreadsheet to demonstrate how they work, however, you may have noticed that data validation rules are not applied retroactively to data that is already present in the cell. This means, for example, that if we had already entered `150` in the `no_membrs` column before applying our data validationrule, that cell would not be flagged with a warning. 
+
+In some versions of Excel, you can click in the `Data` tab on  `Data Validation` and then `Circle invalid data`. This will  put red circles around invalid data entries. Note that it can be a bit slow with large data files.
+
+When using spreadsheets for data entry, it is a good idea to set up data validation rules for each column when you set up your spreadsheet (i.e. before you enter any data). 
+{: .note}
