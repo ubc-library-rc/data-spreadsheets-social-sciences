@@ -7,6 +7,7 @@ nav_order: 2
 
 ## Data formatting problems
 
+**Problem 1:**
 The most common mistake made is treating spreadsheet programs like lab notebooks, that is,
 relying on context, notes in the margin,
 spatial layout of data and fields to convey information. As humans, we
@@ -15,49 +16,19 @@ unless we explain to the computer what every single thing means (and
 that can be hard!), it will not be able to see how our data fit
 together.
 
-Using the power of computers, we can manage and analyze data in much more
-effective and faster ways, but to use that power, we have to set up
-our data for the computer to be able to understand it (and computers are very
-literal).
+**Better practice**
 
-This is why it’s extremely important to set up well-formatted
-tables from the outset - before you even start entering data from
-your very first preliminary experiment. It can make it easier or harder
-to work with your data throughout your analysis, so it's worth
-thinking about when you're doing your data entry or setting up your
-experiment. 
-
-The best layouts/formats (as well as software and interfaces) for data entry and data analysis might be different. It is important to take this into account, and ideally automate the conversion from one to another.
-{: .note}
-
-## Some best practices
-
-### Keep track of your analyses
-
-When you're working with spreadsheets, during data clean up or analyses, it's
-very easy to end up with a spreadsheet that looks very different from the one
-you started with. In order to be able to reproduce your analyses or figure out
-what you did when Reviewer #3 asks for a different analysis, you should
+Instead, when you’re working with spreadsheets, you should always keep your raw data, clean data, and notes separate. 
 
 1. Create a new file or tab with your cleaned or analyzed data. Don't modify the original dataset, or you will never know where you started!
 2. Keep track of the steps you took in your clean up or analysis. You should track these steps as you would any step in an experiment. You can do this in another text file, or a good option is to create a new tab in your spreadsheet with your notes. This way the notes and data stay together.
 
-### Structure data effectively
+This will help you and others to reproduce your analyses or figure out
+what you did.
 
-The cardinal rules of using spreadsheet programs for data:
+**Problem 2:**
 
-1. Put all your variables in columns - the thing you're measuring,
-   like 'weight' or 'temperature'.
-2. Put each observation in its own row.
-3. Don't combine multiple pieces of information in one
-   cell. Sometimes it just seems like one thing, but think if that's
-   the only way you'll want to be able to use or sort that data.
-4. Leave the raw data raw - don't change it!
-5. Export the cleaned data to a text-based format like CSV (comma-separated values) format. This
-   ensures that anyone can use the data, and is required by
-   most data repositories.
-
-Take a look at this screenshot of some collected data (we'll talk more about the dataset and the context later).
+Another common mistake is to put more than one piece of information in one cell. Take a look at this screenshot of some collected data (we'll talk more about the dataset and the context later).
 
 ![multiple-info example](../fig/multiple-info.png)
 
@@ -78,9 +49,27 @@ single value. Thus, the example above should look like this:
 
 Notice that this now allows us to make statements about the number of each type of
 animal that a farmer owns, while still allowing us to say things about the
-total number of livestock. All we need to do is sum the values in each row to
-find a total. We'll be learning how to do this computationally and reproducibly
-later in this workshop.
+total number of livestock. 
+
+**The cardinal rules of using spreadsheet programs for data:**
+
+1. Put all your variables in columns - the thing you're measuring,
+   like 'weight' or 'temperature'.
+2. Put each observation in its own row.
+3. Don't combine multiple pieces of information in one
+   cell. Sometimes it just seems like one thing, but think if that's
+   the only way you'll want to be able to use or sort that data.
+4. Leave the raw data raw - don't change it!
+5. Export the cleaned data to a text-based format like CSV (comma-separated values) format. This
+   ensures that anyone can use the data, and is required by
+   most data repositories.
+
+It’s extremely important to set up well-formatted
+tables from the outset - before you even start entering data from
+your very first preliminary experiment. It can make it easier or harder
+to work with your data throughout your analysis, so it's worth
+thinking about when you're doing your data entry or setting up your
+experiment. 
 
 
 ## Activity
